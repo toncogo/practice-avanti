@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+    background: rgb(22, 22, 22);
+    color: snow;
+}
+
+button {
+    background: #666;
+    border-color: snow;
+}

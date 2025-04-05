@@ -1,0 +1,42 @@
+.hide {
+    display: none;
+}
+
+a {
+    background-color: #EEE;
+    padding: 30px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.content-flex {
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    justify-content: flex-start;
+    /* height: 500px; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-flex p {
+    padding: 30px;
+    width: 250px;
+}
+
+.content-flex p:first-child {
+    font-weight: bold;
+}
+
+.content-flex p:first-child::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #F00;
+    display: inline-block;
+    border: solid 3px;
+    margin-right: 10px;
+}

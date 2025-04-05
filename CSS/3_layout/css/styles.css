@@ -1,0 +1,123 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* formatação geral das tags */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* formatação das classes gerais */
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+/* header */
+
+header {
+    background-color: #666;
+    display: flex; /* coloca um ao lado do outro - trabalha no eixo de linhas */
+    /* flex-direction: column; */
+    justify-content: space-between; /* subpropriedade da display: flex - space-around - space-evenly */
+    padding: 10px;
+}
+
+/* menu de navegação */
+
+nav {
+    background-color: #EEE;
+}
+
+nav ul { 
+    list-style: none;
+
+}
+
+nav ul li a {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* área do main */
+
+main {
+    padding: 10px;
+}
+
+main section {
+    border: 1px solid #DDD;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 30px;
+    background-color: #DDD;
+}
+
+main section#tecnologia {
+    background-color: rgb(250, 178, 178);
+}
+
+main section article {
+    margin: 20px 0;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 20px;
+}
+
+main section h2 {
+    font-size: 16px;
+    margin: 15px;
+}
+
+main section p {
+    margin: 20px 0;
+}
+
+main section a {
+    background-color: #666;
+    color: #FFF;
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #666;
+    color: #EEE;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    letter-spacing: 1px;
+}
+
+
+
+/* sobre */
